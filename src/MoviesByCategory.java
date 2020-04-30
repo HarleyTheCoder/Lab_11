@@ -9,7 +9,7 @@ public class MoviesByCategory {
 		Scanner scan = new Scanner(System.in);
 		String category;
 		
-		//I used a wrong category at first so I'm just keeping it as extra.
+		//List of movies
 		List<Movie> movies = new ArrayList<>();
 		movies.add(new Movie("Spirited Away", "animated"));
 		movies.add(new Movie("Leap", "animated"));
