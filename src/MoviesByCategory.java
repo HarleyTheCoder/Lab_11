@@ -39,7 +39,8 @@ public class MoviesByCategory {
 		//Display movies in chosen category.
 		
 		
-		
+		//Get movie category from user.
+		//Loop is for whether to continue after
 		while (true) {
 			category = MovieMethods.pickCategory(scan);
 			String capitalized = category.substring(0, 1).toUpperCase() + 
